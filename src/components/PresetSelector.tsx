@@ -122,7 +122,6 @@ const handleArrowNavigation = (
         return (
           <div key={category} className="space-y-3">
             <h2
-              tabIndex={0}
               aria-label={`${category} presets`}
               className="text-xs font-bold text-[var(--muted)] px-1 uppercase tracking-wider"
             >
